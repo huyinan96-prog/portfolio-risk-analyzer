@@ -21,7 +21,7 @@ The analyzer projects asset distributions under simulated pricing shock constrai
 
 ## 💻 Local Workspace Run
 ```bash
-git clone https://github.com
+git clone https://github.com/huyinan96-prog/portfolio-risk-analyzer
 cd portfolio-risk-analyzer
 pip install pytest
 pytest
