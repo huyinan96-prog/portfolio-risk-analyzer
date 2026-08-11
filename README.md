@@ -12,6 +12,8 @@ graph LR
 
 ## 📈 Simulated Trajectory Distribution Bounds
 The analyzer projects asset distributions under simulated pricing shock constraints. The model maps potential portfolio value degradation to determine loss limits (VaR (95%)):
+![Portfolio Simulation Chart](reports/simulation_chart.png)
+
 ## 🛠️ Financial Computing Stack
 - **Language Environment:** Python 3.11
 - **Computational Math Library:** NumPy Array Projections
