@@ -14,6 +14,9 @@ graph LR
 The analyzer projects asset distributions under simulated pricing shock constraints. The model maps potential portfolio value degradation to determine loss limits (VaR (95%)):
 ![Portfolio Simulation Chart](reports/simulation_chart.png)
 
+## ⚠️ Volatility Stress Testing & Scenario Profiling
+To protect asset positions against heavy tail-risk anomalies, the core engine introduces artificial macroeconomic shocks (scaling historical return variance matrices by a 3.0x multiplier factor). This simulates systemic contraction events—such as the 2008 Liquidity Crisis or the 2020 Volatility Spikes—enabling quantitative analysts to calculate max drawdown expectations under high-stress constraints.
+
 ## 🛠️ Financial Computing Stack
 - **Language Environment:** Python 3.11
 - **Computational Math Library:** NumPy Array Projections
